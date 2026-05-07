@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = 'https://script.google.com/macros/s/AKfycbx0M6CotyOyQbaCRJZkTEeyZDypfW5VU-pQhWMMQI440sanHRUIeavm0BPsBkodUMruNg/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbyPG8ic0ij6Tkzuxdq7KufYH6gwXkQqbYttAd_Cr5peHyyZxiDHQ_J0_ksUim7hi7kyig/exec';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
