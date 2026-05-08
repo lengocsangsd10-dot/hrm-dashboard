@@ -404,7 +404,7 @@ function App() {
                 {loading ? '⏳ Đang tạo...' : `✅ Tạo ${getDocumentTypeName(documentType)}`}
               </button>
 
-              {documentResult && documentResult.success && (
+              {documentResult && documentResult.docUrl && (
                 <div className="success-message">
                   <p>✅ {documentResult.message}</p>
                   <a href={documentResult.docUrl} target="_blank" rel="noopener noreferrer" className="doc-link">
