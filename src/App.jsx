@@ -92,6 +92,8 @@ function App() {
       });
 
       const result = await response.json();
+      console.log('📋 API Response:', result);
+      console.log('docUrl value:', result.docUrl);
       setDocumentResult(result);
 
       if (result.success || result.docUrl) {
